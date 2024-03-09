@@ -20,8 +20,8 @@ CHANNELS = [-1002055371597,  -1001744111407]
 AUTH_CHANNEL = None
 
 # MongoDB information
-DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
-DATABASE_NAME = 'Telegram'
+DATABASE_URI = "mongodb+srv://mauryaneeraj96701764:alok321@cluster0.ac6ddwt.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_NAME = 'Cluster0'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
 
 
