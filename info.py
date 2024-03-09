@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '20389440'))
-API_HASH = environ.get('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6954757017:AAEZ5QAbsuP3B_uD9ZCLC9u2SyLRq42nR1U")
+API_ID = int(environ.get('API_ID', '20650942'))
+API_HASH = environ.get('API_HASH', '9744c99858433c55c279cce6827d36a4')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7076027813:AAHbA_BlrqhXwKDJtQS2ZKWOYZLB0dlvfRg")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -37,7 +37,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6246830040').split()]
-auth_channel = environ.get('-1002021217229')
+auth_channel = environ.get('100174411140')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
