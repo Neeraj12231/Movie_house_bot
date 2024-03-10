@@ -10,7 +10,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Movie_house_bot
 fi
-cd /VJ-FILTER-BOT 
+cd /Movie_house_bot 
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
